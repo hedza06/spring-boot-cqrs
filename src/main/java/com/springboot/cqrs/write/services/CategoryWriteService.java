@@ -1,0 +1,1 @@
+package com.springboot.cqrs.write.services;import com.springboot.cqrs.write.dto.CategoryWriteDTO;public interface CategoryWriteService{    void store(CategoryWriteDTO category);    void update(CategoryWriteDTO category);    void deactivate(Long id);    void delete(Long id);}

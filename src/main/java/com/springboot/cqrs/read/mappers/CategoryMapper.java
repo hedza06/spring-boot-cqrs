@@ -1,0 +1,1 @@
+package com.springboot.cqrs.read.mappers;import com.springboot.cqrs.entities.Category;import com.springboot.cqrs.read.dto.CategoryReadDTO;import org.mapstruct.Mapper;@Mapper(componentModel = "spring")public interface CategoryMapper {    CategoryReadDTO convertToReadDTO(Category category);}
